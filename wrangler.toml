@@ -1,0 +1,17 @@
+name = "cloudflare-media-variant"
+main = "src/index.ts"
+compatibility_date = "2026-03-17"
+compatibility_flags = []
+
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "zeropress-public-media"
+remote = true
+
+[images]
+binding = "IMAGES"
+
+[vars]
+ALLOWED_PREFIXES = "originals/,imported/"
+DEBUG_LOGS_ENABLED = "false"
+DISABLE_CACHE = "false"

@@ -2,6 +2,15 @@
   "name": "cloudflare-media-variant",
   "version": "1.0.0",
   "description": "Cloudflare Worker for public media delivery and on-demand image variants",
+  "private": true,
+  "cloudflare": {
+    "label": "On-demand Image Variants",
+    "products": [
+      "Workers",
+      "R2",
+      "Images"
+    ]
+  },
   "main": "src/index.ts",
   "scripts": {
     "dev": "wrangler dev",

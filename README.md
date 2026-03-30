@@ -1,12 +1,18 @@
-# cloudflare-media-variant
+# Cloudflare On-demand Image Variants
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zeropress-app/cloudflare-media-variant/tree/main)
 
 Cloudflare Worker for public media delivery and on-demand image variants.
 
-This project is built specifically for Cloudflare Workers. It serves original media files from R2 and generates image variants through Cloudflare Images bindings.
+<!-- dash-content-start -->
+
+It serves original media files from R2 and generates image variants through Cloudflare Images bindings.
+
+<!-- dash-content-end -->
 
 ---
 
-## Quick Start
+## Getting Started
 
 ```bash
 npm install
